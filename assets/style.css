@@ -12,6 +12,11 @@ nav {
     font-family: 'Righteous', cursive;
 }
 
+#logo {
+    position: relative; 
+    top: 30px;
+}
+
 #portfolio {
     margin-top: 30px;
 }
@@ -30,8 +35,13 @@ p {
     text-align: center;
 }
 
+.second-row {
+    margin-top: 25px;
+}
+
 h2 {
     margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 .portfolio-link:hover img{
@@ -85,7 +95,7 @@ h2 {
 
 /* media queries 
 /* ========================================== */
-@media only screen and (max-width: 1400px){
+@media only screen and (max-width: 1800px){
     img {
         margin: auto;
     }
